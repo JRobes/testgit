@@ -1,0 +1,138 @@
+{
+  "id": 0,
+  "source": "string",
+  "subSource": "string",
+  "standardizedTitle": "string",
+  "titles": [
+    {
+      "title": "string",
+      "type": "string",
+      "language": "string",
+      "titleID": 0
+    }
+  ],
+  "contributors": [
+    {
+      "workContributorID": 0,
+      "name": "string",
+      "lastName": "string",
+      "ipiNumber": 0,
+      "ipiBaseNumber": "string",
+      "typeCode": "Publisher",
+      "role": "CA",
+      "mechanicalShare": 0,
+      "performingShare": 0,
+      "subTypeId": 0,
+      "writerPublisherShare": 0,
+      "roleId": 0,
+      "roleCode": "string",
+      "isWriter": true,
+      "setType": "string",
+      "setTypeGroup": "string",
+      "senderRep": true,
+      "sourceIP": 0,
+      "sourceType": "string",
+      "sourceSociety": "string",
+      "relationships": "string",
+      "analysisCode": "string",
+      "accountNumber": "string",
+      "idOriginal": "string",
+      "isPublicDomain": true
+    }
+  ],
+  "artists": [
+    {
+      "lastName": "string",
+      "firstName": "string",
+      "name": "string",
+      "type": "string",
+      "personID": 0
+    }
+  ],
+  "numbers": [
+    {
+      "number": "string",
+      "type": "string",
+      "workNumberID": 0
+    }
+  ],
+  "disambiguateFromNumbers": [
+    {
+      "number": "string",
+      "type": "string",
+      "workNumberID": 0
+    }
+  ],
+  "notes": [
+    {
+      "userID": 0,
+      "noteText": "string",
+      "subject": "string"
+    }
+  ],
+  "territorySpecificInfo": [
+    {
+      "setTypeGroup": "string",
+      "workStatus": "string",
+      "workSubStatus": "string",
+      "isOutOfCopyright": true,
+      "isControlledComposition": true,
+      "isPCSpecific": true,
+      "isPDArrangement": true,
+      "isNonRoyaltyBearing": true,
+      "validForUsageFrom": "2024-06-09T16:47:53.244Z",
+      "validForUsageTo": "2024-06-09T16:47:53.244Z",
+      "domesticOrForeign": "string"
+    }
+  ],
+  "skipContributorCountRules": true,
+  "excludeMatchesOTBelowSimilarity": true,
+  "excludeInEligibleWorks": true,
+  "workBatchID": 0,
+  "stampID": "string",
+  "isDramaticoMusical": true,
+  "medleyCount": 0,
+  "dateCreated": "2024-06-09T16:47:53.244Z",
+  "lastModifiedDate": "2024-06-09T16:47:53.244Z",
+  "duration": 0,
+  "draftSubmitted": true,
+  "isAdUse": true,
+  "isMaintained": true,
+  "isDistribution": true,
+  "isOriginalWork": true,
+  "sourceSociety": "string",
+  "genreCode": "string",
+  "musicArrangement": "string",
+  "lyricAdaptation": "string",
+  "distributionCategoryCode": "string",
+  "isGrandRights": true,
+  "isLibraryWork": true,
+  "isCommissionedForCommercial": true,
+  "isFilmTVCommissioned": true,
+  "medleyType": "string",
+  "isRemix": true,
+  "sourceIP": 0,
+  "sourceType": "string",
+  "originalWorkNumber": {
+    "number": "string",
+    "type": "string",
+    "componentWorkDuration": 0
+  },
+  "instrumentation": [
+    {
+      "instrumentationCode": "string",
+      "workInstrumentationID": 0
+    }
+  ],
+  "hasOpenWorkflow": true,
+  "independentWorkNumberMatch": true,
+  "skipStandardizedTitleSearch": true,
+  "workSourceIP": {
+    "workSourceIPID": 0,
+    "ipiNameNumber": 0,
+    "fullName": "string",
+    "workID": 0,
+    "lastModifiedDate": "2024-06-09T16:47:53.244Z"
+  },
+  "error": "string"
+}
