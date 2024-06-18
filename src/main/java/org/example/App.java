@@ -35,6 +35,8 @@ public class App
         SpanishPointCoreBDOEntitiesWorkWork event = gson.fromJson(reader, SpanishPointCoreBDOEntitiesWorkWork.class);//To access the price
         System.out.println(event.toString());
 
+        //Borra este comentario
+
 
 /*
         JsonReader reader = new JsonReader(new FileReader("file.json"));
