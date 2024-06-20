@@ -5,17 +5,25 @@
   "standardizedTitle": "string",
   "titles": [
     {
-      "title": "string",
+      "algo": "eee",
+      "title": "titulo",
+      "type": "string",
+      "language": "string",
+      "titleID": 0
+    },
+    {
+      "title": "otro titulo",
       "type": "string",
       "language": "string",
       "titleID": 0
     }
   ],
+  "otrovalor": 2,
   "contributors": [
     {
       "workContributorID": 0,
       "name": "string",
-      "lastName": "string",
+      "lastName": null,
       "ipiNumber": 0,
       "ipiBaseNumber": "string",
       "typeCode": "Publisher",
