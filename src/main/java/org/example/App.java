@@ -32,17 +32,24 @@ public class App
 
         Gson gson = new Gson();
         JsonReader reader = new JsonReader(new FileReader("spanishpointWork.json"));
-        SpanishPointCoreBDOEntitiesWorkWork event = gson.fromJson(reader, SpanishPointCoreBDOEntitiesWorkWork.class);//To access the price
-        System.out.println(event.toString());
+        SpanishPointCoreBDOEntitiesWorkWork work = gson.fromJson(reader, SpanishPointCoreBDOEntitiesWorkWork.class);
+        System.out.println(work.toString());
+
+
 
         //Borra este comentario
-        System.out.println("jandedrgi ccc    ");
+        // erwerwerw
+
+        //fof
+
         System.out.println("Esto con github  de IntelliJ");
-        System.out.println("Commienzo dddd");
+        System.out.println("Numero de títulos: " + work.getTitles().size());
+        System.out.println("Numero de títulos: " + work.getTitles().get(0).getTitle());
 
         //de nuevo en el main
         //otro cambio
 
+        //
 /*
         JsonReader reader = new JsonReader(new FileReader("file.json"));
         Event event = gson.fromJson(reader, Event.class);//To access the price
